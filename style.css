@@ -63,7 +63,7 @@ nav {
 
 @media (max-width: 999px) {
   body {
-    overflow-y: hidden;
+    overflow-y: hidden !important;
   }
   .nav-list {
     position: fixed;
