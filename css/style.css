@@ -10,7 +10,9 @@ Make sure disabled buttons don't get the pointer cursor.
   cursor: default;
 }
 
-
+html,body {
+    overflow-x: hidden !important;
+}
 .carousel {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
   height: 330px;
